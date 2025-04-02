@@ -1,0 +1,112 @@
+/* CSS for the main pages */
+
+body {
+    text-align: center;
+    background-color: #F6F8D5;
+    min-height: 100vh;
+}
+
+.header {
+    position: relative;
+    background-color: #205781;
+    color: white;
+    padding: 80px;
+}
+
+.physioIMG {
+    position: relative;
+    width: 200px;
+    margin: -100px;
+    top: 11px;
+    right: 400px;
+}
+
+.devIMG {
+    position: relative;
+    width: 200px;
+    margin: -100px;
+    top: 5px;
+    left: 400px;
+}
+
+.navbar {
+    background-color: #4F959D;
+    padding: 10px;
+}
+
+.navbar a {
+    padding: 30px;
+    color: white;
+    font-size: 1.75rem;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: #ff4f23;
+}
+
+.aboutMe {
+    padding: 3px;
+}
+
+.myPicture {
+    border-radius: 50%;
+    width: 225px;
+    margin: 35px;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    width: 850px;
+    height: 2px;
+    color: #C0C0C0;
+    background-color: #C0C0C0;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: "Lucida handwriting", cursive;
+}
+
+h2 {
+    font-size: 2.5rem; 
+}
+
+.intro {
+    width: 50%;
+    margin: auto;
+    line-height: 1.75;
+    font-size: 1.25rem;
+    color: #205781;
+}
+
+.timeTitle {
+    color: #205781;
+}
+
+.timeline{
+    padding-bottom: 7rem;
+}
+
+.footer{
+    background-color: #4F959D;
+    padding: 30px 0 20px 0;
+    color: white;
+}
+
+.footer a {
+    color: white;
+    padding: 20px;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: #ff4f23;
+}
+
+.pdf {
+    height: 100vh;
+    width: 75%;
+}
